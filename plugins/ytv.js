@@ -28,7 +28,7 @@ handler.tags = ['downloader']
 handler.command = /^yt(v|mp4)?$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = true
 handler.group = false
 handler.private = false
 
@@ -37,7 +37,7 @@ handler.botAdmin = false
 
 handler.fail = null
 handler.exp = 0
-handler.limit = true
+handler.limit = false
 
 module.exports = handler
 
