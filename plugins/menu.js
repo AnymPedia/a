@@ -191,7 +191,22 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "© Gawr Gura Bot || Hosted In AnymHost.ID",
+          "description": "
+╭─「 Support Us 」
+│
+❐ Hosting & Domain Provider :
+│ https://anymhost.id
+│
+❐ Official Website :
+│ https://onedetermination.com
+│
+❐ Youtube Channel :
+│ youtube.com/AnymPedia
+│ 
+❐ VPS Bot Server :
+│ https://anymhost.id/vps
+╰────
+\n © Gawr Gura Bot || Hosted In AnymHost.ID",
           "buttonText": "Menu",
           "listType": "SINGLE_SELECT",
           "sections": [
